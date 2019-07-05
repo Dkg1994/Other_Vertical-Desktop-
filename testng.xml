@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.goibibo.WebApplication.BUS_CAR_TRAIN_SIGNIN.Train_Vertical"/>
+      <class name="com.goibibo.WebApplication.BUS_CAR_TRAIN_SIGNIN.Bus_Vertical"/>
+      <class name="com.goibibo.WebApplication.BUS_CAR_TRAIN_SIGNIN.Car_Vertical"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
