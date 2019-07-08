@@ -140,14 +140,14 @@ public class Bus_Vertical {
 	System.out.println("clicked");
 
 	}
-		
-		if (driver.findElement(By.xpath("//a[@id='onw~redbusnew@2000011931680117372~2']")).isDisplayed()) {
-		
-		driver.findElement(By.xpath("//a[@id='onw~redbusnew@2000011931680117372~2']")).click();
-		
-		System.out.println("clicked in else if");
-		
-	}
+//		
+//		if (driver.findElement(By.xpath("//a[@id='onw~redbusnew@2000011931680117372~2']")).isDisplayed()) {
+//		
+//		driver.findElement(By.xpath("//a[@id='onw~redbusnew@2000011931680117372~2']")).click();
+//		
+//		System.out.println("clicked in else if");
+//		
+//	}
 	test1.pass("Click on Seat");
 
 
