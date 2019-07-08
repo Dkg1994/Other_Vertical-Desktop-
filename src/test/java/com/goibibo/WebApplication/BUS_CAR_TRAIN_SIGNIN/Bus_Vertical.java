@@ -112,7 +112,7 @@ public class Bus_Vertical {
 
 	Thread.sleep(2000);
 
-	driver.findElement(By.xpath("//*[@id=\"fltcrr-div\"]/li[2]/label")).click();
+	driver.findElement(By.xpath("//label[contains(text(),'Northern Travels')]")).click();
 	test1.pass("Choose operator from Bus operator filter");
 
 	Thread.sleep(2000);
@@ -133,15 +133,17 @@ public class Bus_Vertical {
 	driver.findElement(By.linkText("Seat Layout")).click();
 	test1.pass("Click on Seat Layout");
 
-	if (driver.findElement(By.xpath("//*[@id=\"onw~redbusnew@2000011931680105922~38\"]")).isDisplayed()) {
+	if (driver.findElement(By.xpath("//a[@id='onw~redbusnew@2000011931680117372~18']")).isDisplayed()) {
 		
-		driver.findElement(By.xpath("//*[@id=\"onw~redbusnew@2000011931680105922~38\"]")).click();
+		driver.findElement(By.xpath("//a[@id='onw~redbusnew@2000011931680117372~18']")).click();
 
 	System.out.println("clicked");
 
-	}else if (driver.findElement(By.xpath("//*[@id=\"onw~redbusnew@2000011931680105922~15\"]")).isDisplayed()) {
+	}
 		
-		driver.findElement(By.xpath("//*[@id=\"onw~redbusnew@2000011931680105922~15\"]")).click();
+		if (driver.findElement(By.xpath("//a[@id='onw~redbusnew@2000011931680117372~2']")).isDisplayed()) {
+		
+		driver.findElement(By.xpath("//a[@id='onw~redbusnew@2000011931680117372~2']")).click();
 		
 		System.out.println("clicked in else if");
 		
@@ -152,7 +154,7 @@ public class Bus_Vertical {
 	Thread.sleep(1000);
 
 
-	driver.findElement(By.xpath("//*[@id=\"bp-onw-redbusnew@2000011931680105922\"]/option[2]")).click();
+	driver.findElement(By.xpath("//option[contains(text(),'Anand Vihar  -  10:30')]")).click();
 	test1.pass("Select Borading point");
 	Thread.sleep(2000);
 
