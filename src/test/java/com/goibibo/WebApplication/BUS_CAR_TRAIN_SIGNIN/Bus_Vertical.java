@@ -196,7 +196,7 @@ public class Bus_Vertical {
 
 	driver.findElement(By.xpath("//*[@id=\"makePayment\"]")).click();
 	test1.pass("Make Payment");
-	Thread.sleep(7000);
+	Thread.sleep(11000);
 
 	driver.findElement(By.xpath("//*[@id=\"nb\"]/div[1]/div[1]/div[2]")).click();
 	test1.pass("Click on Netbanking");

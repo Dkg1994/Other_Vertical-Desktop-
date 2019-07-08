@@ -138,7 +138,7 @@ public class Car_Vertical {
 			
 			driver.findElement(By.xpath("//*[@id=\"root\"]/div[2]/section/div/section[1]/section/div[3]/div[2]/button")).click();
 			test1.pass("Pay button");
-			Thread.sleep(1000);
+			Thread.sleep(6000);
 
 			driver.findElement(By.xpath("//*[@id=\"nb\"]/div[1]/div[1]/div[2]/span")).click();
 			test1.pass("Click on Netbanking");
